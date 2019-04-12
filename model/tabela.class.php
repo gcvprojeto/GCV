@@ -1,0 +1,42 @@
+<?php
+class Tabela
+{
+   /*declaração de atributos*/
+	private $idTabela;
+	private $descricao;
+	private $valor;
+
+    /*Métodos get*/
+    function getIdTabela()
+	{
+		return $this->idTabela;
+    }
+	
+	function getDescricao()
+	{
+		return $this->descricao;
+    }
+	
+    function getValor()
+	{
+		return $this->valor;
+    }
+	
+    /*Métodos set*/
+	function setIdTabela($pIdTabela)
+	{
+		$this->idTabela = $pIdTabela;
+    }
+	
+	function setDescricao($pDescricao)
+	{
+		$this->descricao = $pDescricao;
+    }
+	
+	function setValor($pValor)
+	{
+		$this->valor = $pValor;
+    }
+	
+}
+?>
